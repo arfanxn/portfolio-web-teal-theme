@@ -1,0 +1,514 @@
+body {
+    background-color: white;
+}
+
+.offcanvas-btn-sm {
+    background-image: url(../Assets/Navbar/Logo/a-logo-png.png);
+    background-size: cover;
+    margin: 0 0 0 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    outline: none;
+}
+
+@media all and (min-width:260px) and (max-width:321px) {
+    .offcanvas-btn-sm {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.navbar-sm-md {
+    background-color: teal;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1030;
+}
+
+
+/* offcanvas xs */
+
+.offcanvas-btn-sm:focus {
+    border-radius: 0;
+    outline: none;
+    color: #212529;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.nav-bar-xs {
+    color: #bebebe;
+    border-bottom: 1px solid #bebebe;
+}
+
+.nav-bar-xs:hover {
+    color: rgba(0, 128, 128, .5);
+    transform: scale( 1.5);
+    transition: 300ms;
+    border: none;
+}
+
+.offcanvas-btn-sm:hover {
+    opacity: 0;
+}
+
+.rgba-white-05 {
+    color: rgba(255, 255, 255, .5);
+}
+
+.nav-link-md {
+    color: rgba(255, 255, 255, .5);
+}
+
+.nav-link-md:hover {
+    color: rgba(255, 255, 255, .75);
+}
+
+.nav-link-xs span {
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.nav-link-xs:hover span {
+    border-bottom: 1.01px solid white;
+}
+
+.nav-link-xs:hover {
+    color: white !important;
+}
+
+.home-bg {
+    background-image: url(../Assets/Home/Background/HOME-BG-TEALPLANE.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.col-home-rgba-md {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.col-home-rgba {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.col-home-thumb {
+    background-image: url(../Assets/Home/Background/Home-Thumb.jpg);
+    background-size: cover;
+    background-position-x: -40px;
+    background-position-y: -45px;
+}
+
+.bg-teal {
+    background-color: teal;
+}
+
+.bg-teal h1 {
+    color: rgba(255, 255, 255, .7);
+    text-shadow: 1px 1px 1px;
+    z-index: 20;
+    margin: 170px 27.5% 0 0;
+}
+
+.col-about-rgba {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.color-teal {
+    color: teal;
+}
+
+.img-profile-xs {
+    width: 100%;
+    max-height: 275px;
+    box-shadow: 35px -35px 0 -20px rgba(0, 128, 128, 1);
+}
+
+.img-profile-sm {
+    aspect-ratio: auto 350 / 400;
+    width: 350px;
+    height: 400px;
+    margin: 100px 0 0 -140px;
+    z-index: 10;
+}
+
+.text-about-wrap {
+    padding-top: 70px;
+}
+
+.text-about-xs {
+    color: rgba(0, 128, 128, 0.7);
+    text-shadow: -1px 1px 1px;
+}
+
+.p-webdev-md {
+    width: auto;
+    max-height: 320px;
+    color: #898787;
+    text-shadow: 1px 1px white;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.p-webdev-xs {
+    width: auto;
+    max-height: 320px;
+    color: #898787;
+    text-shadow: 1px 1px white;
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+@media all and (min-width :576px) and (max-width :950px) {
+    .p-webdev {
+        max-height: 300px;
+    }
+}
+
+.col-work-rgba {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text-work-lg {
+    margin: 100px 0 0 -95px;
+    color: rgba(0, 128, 128, .7);
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+.text-work-md {
+    margin: 90px 0 0 -65px;
+    color: rgba(0, 128, 128, .7);
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+.card-work {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0%;
+    width: 204px;
+    height: 367px;
+}
+
+.item img {
+    background-size: cover;
+    width: 204px;
+    min-height: 367px;
+    max-height: 430px;
+}
+
+.work-text {
+    text-shadow: 3px 1px;
+}
+
+
+/* contact / get in touch */
+
+
+/* contact / get in touch */
+
+
+/* contact / get in touch */
+
+
+/* device lg */
+
+
+/* device lg */
+
+
+/* device lg */
+
+.contact-lg-bg {
+    background-color: teal;
+    background-image: url(../Assets/Contact/Background/teal-mail.jpg );
+    background-size: cover;
+    background-position-x: -200px;
+    position: relative;
+}
+
+.col-contact-rgba {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .75);
+}
+
+.text-git-lg {
+    margin: 100px 0 0 -105px;
+    color: rgba(0, 128, 128, .7);
+    /* font-size: 3.5rem; */
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+
+/* form  */
+
+.form-style-lg {
+    border: none;
+    color: rgba(0, 0, 0, .3);
+    border-bottom: 1px solid rgba(0, 128, 128, 0.3);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 0;
+}
+
+.form-style-lg:focus {
+    color: #212529;
+    background-color: rgba(0, 128, 128, .15);
+    border-color: teal;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+
+/* form end */
+
+.btn-teal-form {
+    width: auto;
+    height: auto;
+    display: flex;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid teal;
+    padding: 0;
+    font-size: 1rem;
+    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+.btn-teal-form:hover {
+    color: white;
+    background-color: rgba(0, 128, 128, 1);
+    transition-duration: .3s;
+}
+
+.contact-info-wrap-lg {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.icon-contact {
+    display: flex;
+    /* border: 1px solid rgba(0, 128, 128, .6);
+    padding: 3px; */
+    margin: 5px 0 0 0;
+}
+
+.icon-teal-form {
+    color: teal;
+    width: 32.5px; 
+    height: 32.5px;
+    border: 1px solid rgba(0, 128, 128, .6);
+    padding: 3px;
+}
+
+.p-contact-lg {
+    display: inline-flex;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+    
+}
+
+
+/* device md */
+
+
+/* device md */
+
+
+/* device md */
+
+.text-git-md {
+    margin: 90px 0 0 -75px;
+    color: rgba(0, 128, 128, .7);
+    /* font-size: 2.5rem; */
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+.form-style-md {
+    padding: 0.100rem 0.25rem;
+    font-size: .7rem;
+    color: rgba(0, 0, 0, .3);
+    border: none;
+    border-bottom: 1px solid rgba(0, 128, 128, 0.3);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 0;
+}
+
+.form-style-md:focus {
+    color: #212529;
+    background-color: rgba(0, 128, 128, 0.15);
+    border-color: teal;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.contact-md-bg {
+    background-color: teal;
+    background-image: url(../Assets/Contact/Background/teal-mail.jpg );
+    background-size: cover;
+    background-position-x: -200px;
+    position: relative;
+}
+
+
+/* device sm */
+
+
+/* device sm */
+
+
+/* device sm */
+
+.text-git-sm {
+    color: rgba(0, 128, 128, .7);
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+.form-style-sm {
+    padding: 0.5rem 0.25rem;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, .3);
+    border: none;
+    border-bottom: 1px solid rgba(0, 128, 128, 0.3);
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 0;
+}
+
+.form-style-sm:focus {
+    color: #212529;
+    background-color: rgba(0, 128, 128, 0.15);
+    border-color: teal;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.p-contact-sm {
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: .9rem;
+}
+
+.btn-teal-form-sm:hover {
+    color: white;
+    background-color: rgba(0, 128, 128, 1);
+    transition-duration: .3s;
+}
+
+.btn-teal-form-sm {
+    width: auto;
+    height: auto;
+    display: flex;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid teal;
+    padding: 0;
+    font-size: .9rem;
+    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+}
+
+.icon-contact-sm {
+    display: flex;
+    padding: 3px;
+    margin: 5px 0 0 0;
+}
+
+.owl-carousel .owl-item img {
+    max-height: 197px !important;
+}
+
+
+/* .mt-git-sm {
+    margin-top: 500px;
+} */
+
+
+/* @media all and (min-width:374px) and (max-width:388px) {
+    .mt-git-sm {
+        margin-top: 310px;
+    }
+} */
+
+
+/* @media all and (min-width:389px) and (max-width:412px) {
+    .mt-git-sm {
+        margin-top: 250px;
+    }
+} */
+
+
+/* iphone 5 etc */
+
+
+/* @media all and (max-width:361px) {
+    .mt-git-sm {
+        margin-top: 365px;
+    }
+} */
+
+
+/* galaxy-fold single screen */
+
+
+/*   @media all and (max-width:281px) {
+    .mt-git-sm {
+        margin-top: 460px;
+    }
+} */

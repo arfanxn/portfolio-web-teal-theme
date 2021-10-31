@@ -1,0 +1,218 @@
+body {
+    background-color: teal;
+}
+
+.home-bg {
+    background-image: url(../Assets/Home/Background/HOME-BG-TEALPLANE.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.col-home-rgba-md {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.col-home-rgba {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.col-home-thumb {
+    background-image: url(../Assets/Home/Background/Home-Thumb.jpg);
+    background-size: cover;
+    background-position-x: -40px;
+    background-position-y: -45px;
+}
+
+.col-about-bg-teal {
+    background-color: teal;
+}
+
+.col-about-bg-teal h1 {
+    z-index: 20;
+    margin-top: -150px;
+}
+
+.img-profile img {
+    aspect-ratio: auto 350 / 400;
+    width: 350px;
+    height: 400px;
+    margin-left: -140px;
+    z-index: 10;
+}
+
+.about-text h1,
+.about-text h3 {
+    color: teal;
+}
+
+.col-about-rgba {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.p-webdev {
+    width: auto;
+    max-height: 380px;
+    text-shadow: 1px 1px white;
+}
+
+.col-works-rgba {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.works-text {
+    text-shadow: 3px 1px;
+}
+
+.contact-lg-bg {
+    background-color: teal;
+    background-image: url(../Assets/Contact/Background/teal-mail.jpg);
+    background-size: cover;
+    background-position-x: -200px;
+    position: relative;
+}
+
+.col-contact-rgba {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.text-git-lg {
+    margin: 90px 0 0 -105px;
+    color: rgba(0, 128, 128, 0.7);
+    font-size: 3.5rem;
+    z-index: 20;
+    text-shadow: -1px 1px 1px;
+}
+
+.form-style-lg {
+    border: none;
+    border-bottom: 1px solid teal;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 0;
+}
+
+.form-style-lg:focus {
+    color: #212529;
+    background-color: rgba(0, 128, 128, 0.15);
+    border-color: rgba(0, 128, 128, 0.3);
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btn-teal-form {
+    width: auto;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid teal;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.btn-teal-form:hover {
+    color: white;
+    background-color: teal;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+.contact-info-wrap-lg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+.icon-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 1px solid rgba(0, 128, 128, 0.6);
+    padding: 3px;
+    margin: 5px 0 0 0;
+}
+
+.icon-teal-form {
+    color: teal;
+}
+
+.p-contact-lg {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-left: 15px;
+    font-size: .75rem;
+}
+
+.form-style-md {
+    padding: 0.100rem 0.25rem;
+    font-size: .7rem;
+    border: none;
+    border-bottom: 1px solid teal;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-radius: 0;
+}
+
+.form-style-md:focus {
+    color: #212529;
+    background-color: rgba(0, 128, 128, 0.15);
+    border-color: rgba(0, 128, 128, 0.3);
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.contact-md-bg {
+    background-color: teal;
+    background-image: url(../Assets/Contact/Background/teal-mail.jpg );
+    background-size: cover;
+    background-position-x: -200px;
+    position: relative;
+}
+
+
+/*# sourceMappingURL=style.css.map */
