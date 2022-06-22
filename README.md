@@ -1,4 +1,4 @@
-# Teal Themed Portfolio (Laravel/Backend)
+# Teal Themed Portfolio-Web
 
 The first ever Portfolio Web I have created, built with HTML5&CSS3 & Bootstrap5 and OwlCarousel Library . 
 
