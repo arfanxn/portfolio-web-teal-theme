@@ -9,6 +9,6 @@ Run on your own SASS LIVE SERVER
 ```
 
 ## License
-MIT && PAYFAN
+MIT && ARFANXN
 
 **Open Source**
